@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    outline: none; /* Remove a borda padrão dos inputs quando estão selecionados. */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #46d09e;
+}
+
+.containerUm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #46d09e;
+}
+
+.containerDois {
+    width: 300px;
+    height: 620px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /*align-items: center;*/
+}
+
+.titulo {
+    font-size: 13px;
+    padding: 35px 0 40px 0;
+    font-weight: 800;
+    text-align: center; 
+}
+
+.titulo:hover {
+    color: #21a071;
+}
+
+.dadoUm, .dadoDois {
+    font-size: 15px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+
+.caixaUm {
+    width: 135px;
+    height: 40px;
+    margin-left: 38px;
+    border-radius: 10px;
+    border: solid 2px rgb(228, 228, 228);
+    font-size: 15px;
+    color: #46d09e;
+    font-weight: 700;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+
+.caixaDois {
+    width: 135px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: solid 2px rgb(228, 228, 228);
+    font-size: 15px;
+    color: #46d09e;
+    font-weight: 700;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    text-align: end;
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #46d09e; 
+}
+
+.info {
+    font-size: 13px;
+    color: rgb(122, 122, 122);
+    padding: 25px 0 20px 0;
+    font-weight: 800;
+    text-align: center;
+}
+
+.info:hover {
+    color: black;
+}
+
+
+.titulo2 {
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center; 
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #46d09e;
+    margin: 20px 0 20px 0; 
+
+}
+
+.titulo2:hover {
+    color: #21a071;
+}
+
+.titulo3 {
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center; 
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #46d09e;
+    margin: 20px 0 20px 0; 
+
+}
+
+.titulo3:hover {
+    color: #21a071;
+}
+
+.res {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0 23px 0 23px;
+}
+
+.res:hover {
+    color: #21a071;
+}
+
+.res2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0px 10px 0 10px;
+}
+
+.res2:hover {
+    color: #21a071;
+}
+
+.res3 {
+    text-align: center;
+    padding: 0 20px 0 20px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.res3:hover {
+    color: #21a071;
+}
+
+
+
+
+
